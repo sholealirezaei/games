@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+.grid {
+    position: absolute;
+    width: 560px;
+    height: 300px;
+    border: solid black 1px;
+    background-image: url('./images/Brickwall.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0 15px 20px #3a3939;
+}
+
+.block {
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background-color: #3a3939;
+    position: absolute;
+    border-radius: 7px;
+}
+
+.user {
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background-color: #d6d3d3;
+    border-bottom: solid black 2px;
+    border-radius: 10px;
+}
+
+.ball {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-image: url('./images/ball.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: orange;
+}
+
+#score {
+    background-color: #d6d3d3;
+    height: 50px;
+    width: 560px;
+    border: solid black 1px;
+    margin: 10px 0 10px 0 ;
+    box-shadow: 0 15px 20px #3a3939;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    color:#ad4e0f;
+}
